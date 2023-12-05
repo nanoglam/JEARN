@@ -69,71 +69,45 @@ a {
     width: 100%;
     background-color: #3B4FAC;
     color: #FFFFFF;
-    position: absolute;
     /* -webkit-box-pack: center;
     -webkit-box-align: center; */
     margin-top: 10px;
 }
+
+.end {
+    display: flex;
+    width: 100%;
+    background-color: red;
+}
+
 .footernav ::after {
     content: none;
 }
 
-.twitter {
+.address {
+/* 住所など */
     position: relative;
-    left: 0%;
-    top: 80%;
-}  
-
-.facebook {
-    position: relative;
-    left: 0%;
-    top: 80%;
-} 
-
-.youtube {
-    position: relative;
-    left: 0%;
-    top: 80%;
-} 
+}
 
 .SDGs {
-    position: relative;
-    width: 263px;
-    height: 162px;
-    left: 35%;
+/* sdgsのcss */
+position: relative;
 }
 
-.npo {
-    position: absolute;
-    top: 100%;
-    right: 75%;
-}
-
-.mail {
-    position: absolute;
-    top: 120%;
-    right: 78%;
-}
-
-.info {
-    position: absolute;
-    top: 100%;
-    left: 75%;
-}
-
-.info a {
+a {
     color: #FFFFFF;
 }
 
-.info ::after {
+.footermenu ::after {
     content: none;
 }
 
-.pry {
-    position: absolute;
-    top: 120%;
-    left: 78%;
+.footermenu {
+    position: relative;
+    justify-content: right;
 }
+
+/* s */
 
 .pry a {
     color: #FFFFFF;
