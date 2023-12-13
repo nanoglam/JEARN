@@ -1,0 +1,196 @@
+.bo {
+    /* ボディ全体のcss */
+    margin: 0 auto;
+}
+
+.layer {
+    /* ヘッター全体のcss */
+    border-bottom: #000 1px solid;
+    border-width: thin;
+}
+
+.hd1 {
+    /* ヘッダーのcss */
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu1 {
+    /* 縦線のcss */
+    border-left: #000 1px solid;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 1%;
+    transform: translate(30%, 0%);
+}
+
+.menu2 {
+ /* 縦線のcss */
+ border-left: #000 1px solid;
+ padding-top: 3%;
+ padding-left: 3%;
+ padding-right: 1%;
+ transform: translate(10%, 0%);
+}
+
+.menu3 {
+ /* 縦線のcss */
+ border-left: #000 1px solid;
+ padding-top: 3%;
+ padding-left: 3%;
+ padding-right: 3%;
+ transform: translate(-10%, 0%);
+}
+.add {
+    /* altのcss */
+    margin: 0%;
+}
+
+.lang {
+    transform: translate(20%, 0%);
+}
+
+.test1 {
+    /* ヘッター（タイトル部分）全体のcss */
+    width: 100%;
+    height: 350px;
+    background: #3B4FAC;
+    /* display: flex; */
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: white;
+    font-family: "Zen Kaku Gothic New";
+    font-weight: 400;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 1000px 200px;
+    border-bottom-left-radius: 1000px 200px;
+}
+
+.nav2 {
+    /* パンくずリストのcss */
+    font-size: 16px;
+    padding-left: 1%;
+}
+
+.tit {
+    /* タイトルのcss */
+    font-size: 56px;
+    counter-reset: center;
+    padding-left: 35%;
+    padding-top: 10%;
+    padding-right: 25%;
+    padding-bottom: 0%;
+}
+
+li ::after {
+    /* ＞のcss */
+    content: ' > ';
+    color: #FFFFFF;
+    top : 0;
+    left : 0;
+    padding: 0.2em;
+}
+
+.last ::after {
+    /* リストの最後の部分 */
+    content: none;
+}
+
+li {
+    /* リストのcss */
+    display: inline;
+    font-size: 11px;
+    line-height: 1.75;
+}
+
+.nav2 a {
+    /* リンクの文字を白くするcss */
+    color: currentColor;
+}
+
+a {
+    /* リンクの下線を無くすcss */
+    text-decoration: none;
+}
+
+.nav1 {
+    /* パンくずリスト全体のcss */
+    padding: 0.5%;
+}
+
+.footerwrap {
+    /* フッター全体のcss */
+    width: 100%;
+    background-color: #3B4FAC;
+    color: #FFFFFF;
+}
+
+.end {
+    /* フッターの要素全体のcss */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    min-width: 65%;
+}
+
+.footernav {
+    /* SNSアイコンのcss */
+    padding: 0%;
+}
+
+.footernav ::after {
+    /* ＞を無くすcss */
+    content: none;
+}
+
+.address {
+/* 住所など */
+    position: relative;
+    padding: 10px;
+    width: 30%;
+}
+
+.SDGs {
+    /* sdgsのcss */
+    position: relative;
+    padding: 10px;
+    width: 30%;
+    padding-top: 5%;
+}
+
+a {
+    /* リンクの文字を全て白くするcss */
+    color: #FFFFFF;
+}
+
+.footermenu ::after {
+    content: none;
+}
+
+.footermenu {
+    position: relative;
+    padding: 10px;
+    width: 30%;
+}
+
+/* s */
+
+.pry a {
+    /* プライバシーのリンクのcss */
+    color: #FFFFFF;
+}
+
+.pry ::after {
+    /* プライバシーの＞を無くすcss */
+    content: none;
+}
+
+.copy {
+    /* ©のcss */
+    border-top: #FFFFFF 1px solid;
+    text-align: center;
+}
+
